@@ -1,0 +1,56 @@
+body, main{
+  display: flex;
+}
+
+body{
+  flex-direction: column;
+}
+
+main{
+  flex-direction: row;
+  flex: auto;
+}
+
+article, aside{
+  overflow-y: auto;
+}
+
+article{
+  flex: 2;
+}
+
+aside{
+  flex: 1;
+}
+
+p{
+  line-height: 1.5;
+}
+
+thead{
+  background-color: orangered;
+  color: white;
+}
+
+tbody tr:nth-child(even){
+  background-color: rgb(241, 241, 241);
+}
+tr > *{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th{
+  font-weight: bold;
+}
+
+h2, h3{
+  color: orangered;
+}
+
+nav a{
+  transition: color 0.25s;
+}
+nav ul li a:hover{
+  color: orangered;
+}
