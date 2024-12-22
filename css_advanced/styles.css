@@ -160,6 +160,13 @@ nav ul li a{
 
 .tutorials-container > *{
   width: 200px;
+  position: relative;
+}
+
+.play-icon{
+  position: absolute;
+  top: 50px;
+  left: 70px;
 }
 
 .tutorials-container > * img:first-of-type{
